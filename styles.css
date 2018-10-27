@@ -1,0 +1,211 @@
+audio {
+	display: none;
+	visibility: hidden;
+	opacity: 0;
+	position: fixed;
+	top: -100%;
+	left: -100%;
+	pointer-events: none;
+}
+
+.blur-bg {
+	position: fixed;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: center center no-repeat;
+	background-size:cover;
+	filter: blur(10px);
+}
+
+.reveal {
+	font-family: 'Roboto', sans-serif;
+}
+
+.reveal .slides {
+	font-family: 'Roboto', sans-serif;
+}
+
+.reveal h1 {
+  font-size : 70px;
+  font-family: 'Josefin Sans', sans-serif;
+  hyphens: auto
+
+}
+
+.reveal h2 {
+  font-size : 50px;
+  font-family: 'Josefin Sans', sans-serif;
+  hyphens: auto
+
+}
+
+.reveal section img.arrow {
+	background: transparent;
+	border: none;
+	box-shadow: none;
+}
+
+.arrow {
+	background: transparent;
+	border: none;
+	box-shadow: none;
+}
+
+.reveal #intro {
+	font-size: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.reveal .fragment .fade-in .tuto {
+	font-size: 12px;
+	margin-right: 20px;
+	margin-left: 20px;
+	position: static;
+	bottom: 10px; 
+}
+
+.reveal .plus {
+	margin-top:20vh;
+	text-align: center;
+	width: 100%;
+}
+
+.reveal h1 {
+	color: black;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.reveal h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-color: black;
+}
+
+.reveal .intro {
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.reveal .tuto {
+	font-size: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: bold;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.reveal .tuto .petit {
+	font-size: 14px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+
+.reveal .suivant {
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.reveal .flotte {
+	float: right;
+	margin-right: 5px;
+	padding-bottom: 5px;
+	padding-top: 200px;
+
+}
+
+
+.reveal .fragment.fade-in {
+	margin-right : 10px;
+	margin-left : 10px;
+	font-size: 15px;
+}
+
+.reveal .temoignages {
+	font-size: 15px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.reveal .temoignages .left {
+	font-size: 15px;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-align: left;
+}
+
+.reveal .temoignages .right {
+	font-size: 15px;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-align: right;
+}
+
+.reveal .signature {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 12px;
+	font-style: bold;
+}
+
+.reveal .fragment {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-style: bold;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.reveal b {
+	font-weight: normal;
+	background-color: black;
+	color: white;
+}
+
+.reveal .wrapper .credits {
+	background-color: black;
+	color: white;
+	font-size:50px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.reveal .wrapper {
+font-size: 15px;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color:black;
+  color: white;
+  animation: 50s credits linear infinite;
+  margin-right: 20px;
+	margin-left: 20px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+
+.reveal .wrapper .job {
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.reveal .wrapper .name {
+  font-size: 15px;
+  font-family:'Roboto', sans-serif;
+}
+
+@keyframes credits {
+    0% { top:  2000%; }
+  100% { top: -3000%; }
+}
